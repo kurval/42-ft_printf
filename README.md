@@ -17,8 +17,8 @@ Our goal was recode printf function in C so we can add it to our libft and use i
 
 ## Length field
 
-hh, h, l and ll (diouxX) ✅
-L (f) ✅
+hh, h, l and ll (%diouxX) ✅
+L (%f) ✅
 
 ## Flags
 
@@ -46,6 +46,6 @@ Run **make** from terminal to create libftprintf.a. Compile with command **gcc m
 
 ## Tests
 
-Repo including my own unit test main.
-Passed PFT 2435/2437 tests.
-Doesn't manage long double with precision over 18.
+Repo including my own unit test main.  
+Passed PFT 2435/2437 tests.  
+Doesn't manage long double with precision over 18.  
