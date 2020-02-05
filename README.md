@@ -46,7 +46,6 @@ Handling dynamic value when passed as another argument when indicated by an aste
 %[flags][width][.precision][length]type
 
 Run **make** from terminal to create libftprintf.a. Compile with command **gcc main.c libftprintf.a** and run **./a.out**
-## Example
 
 ## Tests
 
