@@ -45,10 +45,10 @@ Handling dynamic value when passed as another argument when indicated by an aste
 
 %[flags][width][.precision][length]type
 
-Run **make** from terminal to create libftprintf.a. Compile with command **gcc main.c libftprintf.a** and run **./a.out**
+Run **make** from terminal to create *libftprintf.a*. Compile with command **gcc main.c libftprintf.a** and run **./a.out**
 
 ## Tests
 
 Repo including my own unit test main.  
-Passed PFT 2435/2437 tests.  
+Passed *PFT 2435/2437 tests*.  
 Doesn't manage long double with precision over 18.  
