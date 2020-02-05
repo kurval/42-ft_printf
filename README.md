@@ -30,11 +30,11 @@ Done ✅
 
 ## Bonuses
 
-Handling dynamic value when passed as another argument when indicated by an asterisk * ✅ (width/precision)
-%b prints 8-bit binary ✅
-%a prints 2d array of string when passend as an argument ✅
-%n prints string length when passed as an argument ✅
-%N prints num length when passed as an argument ✅
+Handling dynamic value when passed as another argument when indicated by an asterisk * ✅ (width/precision)  
+%b prints 8-bit binary ✅  
+%a prints 2d array of string when passend as an argument ✅  
+%n prints string length when passed as an argument ✅  
+%N prints num length when passed as an argument ✅  
 
 
 ## Compiling and Usage
