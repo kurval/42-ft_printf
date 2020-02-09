@@ -10,14 +10,14 @@ Our goal was recode printf function in C so we can add it to our libft and use i
 
 ## Conversions 
 
-**%c**  ✅
-**%s**  ✅
-**%p**  ✅
-**%di** ✅
-**%o**  ✅
-**%u**  ✅
-**%xX** ✅
-**%f**  ✅
+✅ **%c**
+✅ **%s**
+✅ **%p**
+✅ **%di**
+✅ **%o**
+✅ **%u**
+✅ **%xX**
+✅ **%f**
 
 ## Length field
 
@@ -26,7 +26,11 @@ Our goal was recode printf function in C so we can add it to our libft and use i
 
 ## Flags
 
-✅ **#0-+** and **space**
+✅ **#**  
+✅ **0**  
+✅ **-**  
+✅ **+**  
+✅ **space**  
 
 ## Width and Precision field
 
