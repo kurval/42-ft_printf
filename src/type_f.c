@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   type_f.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vkurkela <vkurkela@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vkurkela <vkurkela@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/09 11:58:15 by vkurkela          #+#    #+#             */
-/*   Updated: 2020/02/03 17:48:57 by vkurkela         ###   ########.fr       */
+/*   Updated: 2020/02/09 17:50:52 by vkurkela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/printf.h"
 
-void	flag_float4(t_info *info)
+static void	flag_float4(t_info *info)
 {
 	if (info->zero)
 	{
@@ -28,7 +28,7 @@ void	flag_float4(t_info *info)
 	free(info->nbr);
 }
 
-void	flag_float3(t_info *info)
+static void	flag_float3(t_info *info)
 {
 	info->width && !info->zero && !info->space &&\
 	!info->minus ? put_spaces(info->width, info->len, info->bytes) : 0;
@@ -51,7 +51,7 @@ void	flag_float3(t_info *info)
 	flag_float4(info);
 }
 
-void	flag_float2(t_info *info)
+static void	flag_float2(t_info *info)
 {
 	info->len = ft_strlen(info->nbr);
 	info->output_f < 0 ? info->len += 1 : 0;
@@ -63,7 +63,7 @@ void	flag_float2(t_info *info)
 	flag_float3(info);
 }
 
-void	flag_float(va_list args, t_info *info)
+void		flag_float(va_list args, t_info *info)
 {
 	int	round;
 
